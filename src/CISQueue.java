@@ -14,7 +14,7 @@ public class CISQueue<T> {
     // Constructor.
     public CISQueue(int size) {
         arr = new Object[size];
-        size = 0;
+        this.size = 0;
         pointer = -1;
     }
 
